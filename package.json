@@ -1,0 +1,25 @@
+{
+  "name": "mt-sics",
+  "description": "A node.js interface library to Mettler Toledo balances and scales that use the Mettler Toledo Standard Interface Command Set (MT-SICS).",
+  "version": "0.0.1",
+  "author": "Alexandre Tiertant <a.tiertant@atlantis-software.net>",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/Atlantis-Software/mt-sics",
+  "homepage": "https://github.com/Atlantis-Software/mt-sics",
+  "keywords": [
+    "mettler",
+    "toledo",
+    "balance",
+    "scale",
+    "mt-sics"
+  ],
+  "scripts": {
+    "test": "node ./test/runner.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "~8.3.0"
+  }
+}

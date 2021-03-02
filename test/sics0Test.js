@@ -283,7 +283,7 @@ describe('sics 0', function() {
       });
       done();
     });
-    mtsics.write('IA A "1234567"\r\n');
+    mtsics.write('I4 A "1234567"\r\n');
   });
 
   it('reset return an error', function(done) {
@@ -291,7 +291,7 @@ describe('sics 0', function() {
       assert(err instanceof Error);
       done();
     });
-    mtsics.write('IA I\r\n');
+    mtsics.write('I4 I\r\n');
   });
 
 });

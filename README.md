@@ -41,3 +41,4 @@ mtsics.get_commands(function(err, commands) {
   | zero_stable | callback | Zero the balance. |
   | zero | callback | Zero the balance immediately regardless the stability of the balance. |
   | reset | callback | Resets the balance to the condition found after switching on, but without a zero setting being performed. |
+  | close | | Close de connection. |
